@@ -1,39 +1,52 @@
-const BaseURL = require('./BaseURL'); 
+const BaseURL = require('./BaseURL');
+
 const BTN = '//button[@id="ajaxButton"]' //Button to be clicked
-const DISPLAY_MSG_2 = '//p[@class="bg-success"][2]' //second display message onclicking above button
-const MSG_DIV = '//div[@id="content"]' //div that contains message
-const DISPLAY_MSGS = '//p[@class="bg-success"]'
+const MSG_COUNT = '.bg-success'
+const PAGE_TITLE = '//h3' //page title
+const SPINNER = 'i#spinner' //spinner element
 
 class AjaxPage extends BaseURL {
-    
+
     //Overwriting open with subpath /ajax
-    openURL(){
+    async openURL() {
+        await browser.maximizeWindow() //Maximize window
         return super.open('ajax')
     }
 
+    get AjaxTitle() {
+        return $(PAGE_TITLE)
+    }
+
     //Button Triggering AJAX Request - button
-    get triggerBTN(){
+    get triggerBTN() {
         return $(BTN);
     }
 
-    get secondDisplayMessage(){
-        return $(DISPLAY_MSG_2)
+    get msg_text(){
+        return $(MSG_COUNT) //single elements found
     }
 
-    get displayMessages(){
-        return $$(DISPLAY_MSGS)
+    get countOfMsg(){
+        return $$(MSG_COUNT) //multiple elements found
     }
 
-    get messageDiv(){
-        return $(MSG_DIV)
+    get spinner(){
+        return $(SPINNER)
     }
 
-    waitForTriggerBtn(){
-        $(BTN).waitForDisplayed()
-    }
 
-    waitForDisplayMsg(){
-        $(DISPLAY_MSG_2).waitForDisplayed({timeout: 30000})
+    async clickAjaxRequest_btn() {
+        
+        await this.triggerBTN.click();
+        // Wait till the spinner element to disappear
+
+        try {
+            //Wait for spinner (loading animation) to be disappeared and execution goes to next line
+            //takes 15.5 seconds to display one message. So timeougt is customized to 35 secs.
+            await this.spinner.waitForDisplayed({ reverse: true, timeout: 35000 });
+        } catch (e) {
+            console.error('[ERR] Spinner is still on screen and did not disappear');
+        }
     }
 }
 

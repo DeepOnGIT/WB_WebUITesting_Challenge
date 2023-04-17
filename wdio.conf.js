@@ -26,11 +26,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/ProgressBar.exec.js',
-        './test/specs/AjaxPage.exec.js',
-        './test/specs/VisibilityPage.exec.js',
-        './test/specs/Shadowdom.exec.js',
-        './test/specs/ClickPage.exec.js',
+        './test/specs/WM_Challenge.js',
 
     ],
 

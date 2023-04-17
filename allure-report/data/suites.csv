@@ -1,8 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Sat Apr 15 22:25:25 IST 2023","Sat Apr 15 22:25:42 IST 2023","17401","","Validate Visibility Page","","","","Validate hide button behaviour when clicked",""
-"failed","Sat Apr 15 22:25:25 IST 2023","Sat Apr 15 22:25:39 IST 2023","14566","","Validate Shadow DOM page","","","","Verify whether copy button is copying the exact input value",""
-"passed","Sat Apr 15 22:25:25 IST 2023","Sat Apr 15 22:26:02 IST 2023","37008","","Validate Ajax Page","","","","Verify whether message is displayed only once after two clicks",""
-"unknown","Sat Apr 15 15:16:18 IST 2023","Sat Apr 15 15:17:18 IST 2023","60017","","My Login application","","","","should login with valid credentials",""
-"broken","Fri Apr 14 18:22:30 IST 2023","Fri Apr 14 18:22:32 IST 2023","2237","","Validate UI elements of Progress Bar page","","","","Click stop button when Progress Bar percentage is 75%",""
-"broken","Sat Apr 15 22:25:25 IST 2023","Sat Apr 15 22:26:25 IST 2023","60019","","Validate Progress page","","","","Verify whether stop button is clicked when bar reaches 75% exact",""
-"failed","Sat Apr 15 16:07:52 IST 2023","Sat Apr 15 16:07:59 IST 2023","7166","","Validate behaviour of Click Page","","","","Verify whether button color is changed to RED when clicked",""

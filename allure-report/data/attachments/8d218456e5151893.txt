@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@onclick=\"HideButtons()\"]\"}\n  (Session info: chrome=112.0.5615.86)",
-  "stacktrace": "Backtrace:\n\tGetHandleVerifier [0x011EDCE3+50899]\n\t(No symbol) [0x0117E111]\n\t(No symbol) [0x01085588]\n\t(No symbol) [0x010B08F9]\n\t(No symbol) [0x010B0AFB]\n\t(No symbol) [0x010DF902]\n\t(No symbol) [0x010CB944]\n\t(No symbol) [0x010DE01C]\n\t(No symbol) [0x010CB6F6]\n\t(No symbol) [0x010A7708]\n\t(No symbol) [0x010A886D]\n\tGetHandleVerifier [0x01453EAE+2566302]\n\tGetHandleVerifier [0x014892B1+2784417]\n\tGetHandleVerifier [0x0148327C+2759788]\n\tGetHandleVerifier [0x01285740+672048]\n\t(No symbol) [0x01188872]\n\t(No symbol) [0x011841C8]\n\t(No symbol) [0x011842AB]\n\t(No symbol) [0x011771B7]\n\tBaseThreadInitThunk [0x75DF7D49+25]\n\tRtlInitializeExceptionChain [0x77C6B74B+107]\n\tRtlClearBits [0x77C6B6CF+191]\n"
-}

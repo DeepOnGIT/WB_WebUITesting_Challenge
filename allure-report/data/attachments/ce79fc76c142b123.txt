@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"startButton\"]\"}\n  (Session info: chrome=112.0.5615.86)",
-  "stacktrace": "Backtrace:\n\tGetHandleVerifier [0x0064DCE3+50899]\n\t(No symbol) [0x005DE111]\n\t(No symbol) [0x004E5588]\n\t(No symbol) [0x005108F9]\n\t(No symbol) [0x00510AFB]\n\t(No symbol) [0x0053F902]\n\t(No symbol) [0x0052B944]\n\t(No symbol) [0x0053E01C]\n\t(No symbol) [0x0052B6F6]\n\t(No symbol) [0x00507708]\n\t(No symbol) [0x0050886D]\n\tGetHandleVerifier [0x008B3EAE+2566302]\n\tGetHandleVerifier [0x008E92B1+2784417]\n\tGetHandleVerifier [0x008E327C+2759788]\n\tGetHandleVerifier [0x006E5740+672048]\n\t(No symbol) [0x005E8872]\n\t(No symbol) [0x005E41C8]\n\t(No symbol) [0x005E42AB]\n\t(No symbol) [0x005D71B7]\n\tBaseThreadInitThunk [0x75DF7D49+25]\n\tRtlInitializeExceptionChain [0x77C6B74B+107]\n\tRtlClearBits [0x77C6B6CF+191]\n"
-}

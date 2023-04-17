@@ -1,10 +1,8 @@
-```sh
 Happy Test case 1 - Progressbasr.exec.js
-```
 
 Create a test for below scenario
-Navigate to the url -http: //uitestingplayground.com/progressbar and 
-Create a test that clicks Start button 
+Navigate to the url -http: //uitestingplayground.com/progressbar and
+Create a test that clicks Start button
 and then waits for the progress bar to reach 75 percentage
 Then the test should click Stop, 5% is acceptable tolerance limit to pass the test.
 

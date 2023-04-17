@@ -1,3 +1,0 @@
-{
-  "shadow-6066-11e4-a52e-4f735466cecf": "a0191b1c-aaf6-4992-b4c1-8c8ab230db6e"
-}

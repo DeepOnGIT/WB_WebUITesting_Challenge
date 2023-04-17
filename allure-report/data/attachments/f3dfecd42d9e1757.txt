@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@id=\"badButton\"]\"}\n  (Session info: chrome=112.0.5615.86)",
-  "stacktrace": "Backtrace:\n\tGetHandleVerifier [0x00D0DCE3+50899]\n\t(No symbol) [0x00C9E111]\n\t(No symbol) [0x00BA5588]\n\t(No symbol) [0x00BD08F9]\n\t(No symbol) [0x00BD0AFB]\n\t(No symbol) [0x00BFF902]\n\t(No symbol) [0x00BEB944]\n\t(No symbol) [0x00BFE01C]\n\t(No symbol) [0x00BEB6F6]\n\t(No symbol) [0x00BC7708]\n\t(No symbol) [0x00BC886D]\n\tGetHandleVerifier [0x00F73EAE+2566302]\n\tGetHandleVerifier [0x00FA92B1+2784417]\n\tGetHandleVerifier [0x00FA327C+2759788]\n\tGetHandleVerifier [0x00DA5740+672048]\n\t(No symbol) [0x00CA8872]\n\t(No symbol) [0x00CA41C8]\n\t(No symbol) [0x00CA42AB]\n\t(No symbol) [0x00C971B7]\n\tBaseThreadInitThunk [0x75DF7D49+25]\n\tRtlInitializeExceptionChain [0x77C6B74B+107]\n\tRtlClearBits [0x77C6B6CF+191]\n"
-}
