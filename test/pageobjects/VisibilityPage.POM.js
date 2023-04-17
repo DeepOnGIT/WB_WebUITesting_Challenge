@@ -95,27 +95,30 @@ class VisibilityPage extends BaseURL {
 
     async verifyZeroWidthButtonDisplayed() {
         const elementWidth = await (await this.zeroWidthButton).getCSSProperty('width');
-        // Assert that the width of the element is zero after clicking on hide button
+        // Zero width is changed to 0
         expect(elementWidth.value).toBe('0px');
     }
 
     async verifyOpacityButtonDisplayed() {
         const elementOpacity = await (await this.opacityButton).getCSSProperty('opacity');
-        // Assert that the opacity of the element is zero after clicking on hide button
+        // Opacity is set to 0 when clicked Hide
         expect(elementOpacity.value).toBe(0);
     }
 
     async verifyVisibilityHiddenButtonDisplayed() {
         const elementHidden = await (await this.invisibleButton).getCSSProperty('visibility');
+        //Visibility prop is set to hidden when clicked Hide
         expect(elementHidden.value).toBe('hidden');
     }
 
     async verifyDisplayNoneButtonDisplayed() {
         const elementDisplay = await (await this.notdisplayedButton).getCSSProperty('display');
+        //display is set to none 
         expect(elementDisplay.value).toBe('none');
     }
 
     async verifyOffsetButtonDisplayed() {
+        //padding values of this button are getting changed when clicked Hide
         const leftValue = await (await this.offscreenButton).getCSSProperty('left');
         const rightValue = await (await this.offscreenButton).getCSSProperty('right');
         const topValue = await (await this.offscreenButton).getCSSProperty('top');
