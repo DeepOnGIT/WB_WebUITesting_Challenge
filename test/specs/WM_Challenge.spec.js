@@ -21,7 +21,7 @@ describe('Validate UITPG Web Page', () => {
         //Validation
         const actual = numericProgressBarValue; //actual value
         const expected = 80; //expected value
-        expect(actual).to.be.at.most(expected); //expecting the value to be around 80
+        expect(actual).to.be.lessThanOrEqual(expected); //expecting the value to be around 75 - 80. As 5% is the tolerence.
     })
 
     it("Validate message count when Ajax button is clicked twice", async () => {
