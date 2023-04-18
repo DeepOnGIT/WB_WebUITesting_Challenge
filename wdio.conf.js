@@ -26,7 +26,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/WM_Challenge.js',
+        './test/specs/WM_Challenge.spec.js',
 
     ],
 
